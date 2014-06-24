@@ -1,0 +1,23 @@
+{
+  "name": "anonymizer/anonymizer",
+  "type": "library",
+  "description": "Anonymizer, an anonymous class generator",
+  "keywords": ["anonymous","class","generator"],
+  "homepage": "http://github.com/kuba81/Anonymizer",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Kuba Stawiarski",
+      "email": "kuba.stawiarski@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~3.7.0"
+  },
+  "autoload": {
+    "psr-4": { "Anonymizer\\": "src/Anonymizer" }
+  }
+}
